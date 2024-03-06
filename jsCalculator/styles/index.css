@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  position: fixed;
+  background-color: #14213d;
+  width: 100vw;
+  text-align: center;
+  color: #e5e5e5;
+  font-family: "regular";
+}
+
+#majorContainer {
+  min-height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#calcContainer {
+  background-color: #14213d;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+
+#inputsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lastInput {
+  font-family: "regular";
+  font-size: large;
+  color: #e5e5e5;
+  padding: 10px 0 0 0;
+}
+
+#inputsContainer input {
+  font-size: larger;
+  width: 80%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e5e5e5;
+  font-family: "regular";
+  text-align: right;
+  padding: 3px 10px;
+}
+
+#keysContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 25px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+#keysContainer button {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #14213d;
+  border: 2px solid #14213d;
+  border-radius: 20px;
+  font-family: "regular";
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #e5e5e5;
+  padding: 8px;
+}
+
+#keysContainer button:hover {
+  border: 2px solid #e5e5e5;
+  background-color: #e5e5e5;
+  color: #14213d;
+}
+
+#extraOptions {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+#extraOptions button {
+  font-family: "regular";
+  width: 50%;
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid #14213d;
+  border-radius: 20px;
+  background-color: #14213d;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+
+#extraOptions button:hover {
+  border: 2px solid #e5e5e5;
+}
