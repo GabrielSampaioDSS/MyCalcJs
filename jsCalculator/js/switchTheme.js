@@ -96,6 +96,5 @@ export function switchTheme() {
     index = 0;
   }
 
-  input.focus();
   lastInput.innerText = "";
 }

@@ -6,8 +6,6 @@ const copyBtn = document.getElementById("copyToClipboard");
 
 export function charKeyClick(ev) {
   ev.preventDefault();
-  input.focus();
-
   if ((lastInput.innerText = "Invalid input")) {
     lastInput.innerText = "";
   }
@@ -23,7 +21,6 @@ export function clearBtn() {
 
 export function charKeyTyping(ev) {
   ev.preventDefault();
-  input.focus();
   copyBtn.innerText = "Copy";
 
   if ((lastInput.innerText = "Invalid input")) {

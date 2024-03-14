@@ -14,5 +14,4 @@ export function copyToClipboard() {
   } else {
     copyBtn.innerText = "Copy";
   }
-  input.focus();
 }

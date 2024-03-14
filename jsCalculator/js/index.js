@@ -10,8 +10,6 @@ const equal = document.getElementById("equalBtn");
 const copyBtn = document.getElementById("copyToClipboard");
 const themeBtn = document.getElementById("themeSwitcher");
 
-input.focus();
-
 charKeys.forEach(function (key) {
   key.addEventListener("click", charKeyClick);
 });

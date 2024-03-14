@@ -13,5 +13,4 @@ export function calculate() {
     lastInput.innerText = "Invalid input";
     input.value = "";
   }
-  input.focus();
 }
