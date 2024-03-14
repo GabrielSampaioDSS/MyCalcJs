@@ -15,7 +15,6 @@ export function charKeyClick(ev) {
 
 export function clearBtn() {
   (lastInput.innerText = ""), (input.value = "");
-  input.focus();
   copyBtn.innerText = "Copy";
 }
 
